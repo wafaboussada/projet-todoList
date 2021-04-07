@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+.connexion-form {
+  margin: 10% 30%;
+  max-width: 500px;
+  
+}
+.form-control {
+  width: 50%;
+}
