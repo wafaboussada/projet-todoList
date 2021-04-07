@@ -9,8 +9,7 @@ const Tasks = () => {
   const isConnected = localStorage.getItem('is_connected');
   React.useEffect(() => {
     const json = localStorage.getItem("todos");
-    console.log('localstorage', localStorage.getItem('is_connected'));
-    const loadedTodos = JSON.parse(json);
+    git commit -m "mon premier commit"    const loadedTodos = JSON.parse(json);
     if (loadedTodos) {
       setTodos(loadedTodos);
     }

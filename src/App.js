@@ -11,8 +11,6 @@ function App() {
       <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/tasks" component={Tasks} />
-          {/* <Route path="/community" component={Community} />
-          <Route component={ErrorPage} /> */}
       </Switch>
     </BrowserRouter>
   );
