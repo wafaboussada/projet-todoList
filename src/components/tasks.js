@@ -81,7 +81,7 @@ const Tasks = () => {
               checked={todo.completed}
               data-toggle="tooltip"
               data-placement="top"
-              title="Cocher pour completer la tache"
+              title="Cocher pour completer la tâche"
               onChange={() => toggleComplete(todo.id)}
             />
             {todo.id === todoEditing ? (

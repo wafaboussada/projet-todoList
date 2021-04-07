@@ -3,7 +3,6 @@ import { Link, NavLink } from 'react-router-dom';
 const Menu = () => {
   function deconnect() {
     localStorage.setItem('is_connected', false);
-    console.log('hello');
   }
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
